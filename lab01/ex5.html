@@ -1,8 +1,22 @@
 <html>
-<header>
-    <title>Exercise5</title>
-    <link rel="stylesheet" href="css/cv.css">
-</header>
+
+<title>Exercise5</title>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 20px;
+        }
+
+        img {
+            height: 175px;
+        }
+    </style>
+</head>
 
 <body>
 
@@ -13,16 +27,13 @@
 
 <body>
     <h1>My information</h1>
-    <table>
+    <table cellspacing="0" cellpadding="5">
+   
         <tr>
-            <th>&nbsp;</th>
-            <th>&nbsp;</th>
-            <th>&nbsp;</th>
-            <th>&nbsp;</th>
-        </tr>
-        <tr>
-            <td colspan="3">Personal Details</td>
-            <td id="image"><img src="./raiden.jpg" width="100" height="100"></td>
+            <td colspan="3" valign="top" style="width: 80%">Personal Details</td>
+            <td id="image" style="text-align: center;">image
+                <br>
+                <img src="./raiden.jpg"></td>
         </tr>
         <tr>
             <td>Full name</td>
